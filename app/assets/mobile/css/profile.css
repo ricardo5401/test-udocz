@@ -1,0 +1,61 @@
+.mobile .follow-info-content {
+  width: 74%
+}
+.mobile .follows-container{
+  margin-top: 20px
+}
+.profile-picture-mobile{
+	max-width: 80px;
+  max-height: 80px;
+	margin-bottom: 25px;	
+}
+.mobile .profile-container-info{
+  padding-left: 10px!important
+}
+.profile-container-info-mobile{
+	width: 100%;
+}
+.profile-name-mobile{
+	margin-top: 15px;
+	color: black!important;
+  font-size: 20px;
+  color: white;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+.profile-title{
+  padding: 8px;
+  color: #5bb98f;
+  font-size: 20px
+}
+.followBTN-mobile{
+	margin-top: 25px;
+}
+
+.circle-button.b-green-mobile {
+  background-color: transparent !important;
+  border-color: #5BB98F !important;
+  color: #5BB98F !important;
+  margin-left: 0px;
+  border: 2px solid #5BB98F !important;
+}
+@media(max-width: 400px){
+  .mobile .follow-info-content {
+    width: 70%
+  }
+}
+@media(max-width: 360px){
+  .mobile .follow-info-content {
+    width: 68%
+  }
+}
+@media(max-width: 320px){
+  .mobile .follow-info-content {
+    width: 66%
+  }
+}
+@media(max-width:550px){
+  .mobile .profile-name{
+    max-width: 75%;
+  }
+}

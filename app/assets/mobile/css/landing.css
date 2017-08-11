@@ -1,0 +1,97 @@
+.landing-udocz-content{
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	background: url(../img/top-banner.jpg) center center / cover no-repeat;
+}
+.landing-bold-title, .landing-bold-subtitle{
+	color: #FAFAFA;
+	line-height: normal;
+}
+.landing-bold-title{
+	font-family: "Avenir Next LT Pro Demi";
+	font-size: 30px;
+}
+.landing-bold-subtitle{
+	font-size: 20px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+	padding-bottom: 10px
+}
+.toTopUdocz{
+  color: #5bb98f;
+}
+.pink-btn{
+	background-color:  #e368d6;
+	color: white;
+	border-color: #e368d6;
+	border: 1.5px solid #e368d6;
+	text-align: center;
+  vertical-align: middle;
+  border-radius: 27px 27px 27px 27px;
+  display: inline-block;
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 2px;
+  font-family: "Open Sans", sans-serif;
+}
+.green-btn{
+	background-color:  #5bb98f;
+	color: white;
+	border-color: #5bb98f;
+	border: 1.5px solid #5bb98f;
+	text-align: center;
+  vertical-align: middle;
+  border-radius: 27px 27px 27px 27px;
+  display: inline-block;
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: 2px;
+  font-family: "Open Sans", sans-serif;
+}
+.pink-btn.bordered{
+	background-color:  transparent;
+	color: #e368d6
+}
+.green-btn.bordered{
+	background-color:  transparent;
+	color: #5bb98f
+}
+.landing-udocz-content .pink-btn{
+	min-width: 80px;
+
+}
+.top-udocz-container{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.top-udocz-container .title{
+	padding: 8px;
+	color: #5bb98f;
+}
+.top-udocz-container .white-card{
+	padding-left: 5px!important;
+  padding-right: 15px!important;
+}

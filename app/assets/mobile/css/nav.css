@@ -1,0 +1,84 @@
+.container-fluid.mobile{
+	padding-left: 5px;
+}
+.mobile .App-logo a{
+	margin-left: 2px
+}
+.mobile .App-logo img{
+	width: 90px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.navbar-right{
+	float: right;
+	margin: 0px;
+	margin-top: 6.5px;
+
+}
+.mobile .button-search{
+	font-size: 16px;
+	color: #878787;
+}
+.mobile .glyphicon-search{
+	font-weight: lighter;
+}
+.mobile-auth{
+	color: #5bb98f;
+	font-size: 16px!important;
+	font-family: "Open Sans", sans-serif, "Roboto";
+}
+.mobile .nav > li {
+	float: left;
+}
+
+.gray{
+	color: #333;
+}
+.user-notification-menu-mobile{
+  min-width: 380px!important;
+}
+
+.dropdown-menu {
+    min-width: 255px!important;
+}
+
+.mobile .dropdown-menu{
+	right: 0;
+	position: absolute;
+	top: 100%;
+	left: auto;
+	z-index: 1000;
+	display: none;
+	float: left;
+	min-width: 260px;
+	padding: 5px 0;
+	margin: 2px 0 0;
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 4px;
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.mobile .open .dropdown-menu {
+	position: absolute;
+	display: block;
+	float: left;
+	margin: 2px 0 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border: 1px solid rgba(0,0,0,.15);
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.mobile .nav-img{
+	margin-right: 0;
+}
+.mobile #user-nav{
+	padding: 6px 6px;
+}

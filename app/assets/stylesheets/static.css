@@ -1,0 +1,25 @@
+.static{
+	font-family: "Avenir Next LT Pro Regular"
+}
+.static .content{
+	width: 95%;
+	max-width: 1064px;
+	text-align: left;
+}
+.static .content p, .static .content ol li{
+	text-align: justify;
+  font-size: 16px;
+}
+.bordered-container {
+  border-radius: 25px;
+  background: #f5f6f7;
+  padding: 20px;
+  font-size: 16px;
+}
+.static .content .left{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.bold{
+	font-weight: bold;
+}

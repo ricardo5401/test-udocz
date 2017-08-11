@@ -1,0 +1,17 @@
+@media(max-width: 767px){
+	.mobile .modals-container{
+		top: 12px;
+		padding: 2px
+	}
+	.mobile .auth-close{
+		top: 20px;
+    color: rgba(0,0,0,.8);
+	}
+	.mobile .modal-520{
+		width: 100%;
+	}
+	.mobile .parent-modal-container .boxclose{
+		padding: 15px 10px;
+		margin-left: -44px
+	}
+}

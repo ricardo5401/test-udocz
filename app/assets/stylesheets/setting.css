@@ -1,0 +1,66 @@
+hr {
+  margin-top: 7px!important;
+  margin-bottom: 7px!important;
+}
+.settings-title{
+	font-size: 16px;
+	padding-top: 20px
+}
+.editable-title{
+	font-size: 18px;
+	font-family: 'Open-Sans', sans-serif;
+	font-weight: bold
+}
+.row-setting{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	vertical-align: middle;
+}
+.bg-white{
+	background-color: white;
+}
+.max-80-percent.max-700{
+	padding: 20px;
+  max-width: 700px;
+}
+.editable-button-container{
+	float: right;
+	padding-top: 5px
+}
+.open-sans{
+	font-size: 16px
+}
+.editable-subtitle, .open-sans, .settings-title{
+	font-family: 'Open-Sans', sans-serif;
+	font-weight: 300;
+}
+.editable-subtitle{
+	color: gray;
+	max-width: 400px
+}
+.flat-textbox{
+	border: 1px solid rgba(0,0,0,.15);
+  padding: 0 10px;
+  height: 35px;
+  font-size: 14px;
+  outline: 0;
+  background: #fff;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: "Open Sans","Helvetica Neue",sans-serif;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-style: normal;
+}
+.margin-v10{
+	margin-top:5px;
+	margin-bottom: 5px
+}
+@media(max-width: 768px){
+	.font-25-sm{
+		font-size: 25px
+	}
+}

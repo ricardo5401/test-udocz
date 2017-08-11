@@ -1,0 +1,29 @@
+<% if @metas && !@metas[:noindex] %>
+
+<title><%= @metas[:title] %></title>
+<meta name="description" content="<%= @metas[:description] %>" />
+
+<!-- Schema.org markup for Google+ -->
+<meta name="name" content="<%= @metas[:title] %>">
+<meta name="description" content="<%= @metas[:description] %>">
+<meta name="image" content="<%= @metas[:image] %>">
+<meta name="keywords" content="<%= @metas[:keywords] %>"
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="<%= @metas[:image] %>">
+<meta name="twitter:site" content="<%= @metas[:url] %>">
+<meta name="twitter:title" content="<%= @metas[:title] %>">
+<meta name="twitter:description" content="<%= @metas[:description] %>">
+<meta name="twitter:creator" content="<%= @metas[:published] || 'uDocz' %>">
+<!-- Twitter summary card with large image must be at least 280x150px -->
+<meta name="twitter:image:src" content="<%= @metas[:image] %>">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="<%= @metas[:title] %>" />
+<meta property="og:type" content="<%= @metas[:type] || 'Website' %>" />
+<meta property="og:url" content="<%= @metas[:url] %>" />
+<meta property="og:image" content="<%= @metas[:image] %>" />
+<meta property="og:description" content="<%= @metas[:description] %>" />
+<meta property="og:site_name" content="uDocz" />
+
+<% end %>

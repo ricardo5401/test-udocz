@@ -1,0 +1,98 @@
+input[type=search] {
+
+-webkit-appearance: none;
+box-sizing: content-box;
+background: #FAFAFA;
+}
+.textInput--underlined {
+border: 0;
+border-bottom: 1px solid rgba(0,0,0,.15);
+border-radius: 0;
+}
+
+
+.search-container{
+max-width: 1000px;
+padding-top: 40px!important;
+padding-right: 20px!important;
+padding-left: 20px!important;
+padding-bottom: 20px!important;
+position: relative!important;
+
+z-index: 100!important;
+display: block;
+}
+.explore-document-mobile{
+
+	min-height: 320px
+}
+
+.textInput--jumbo {
+font-family: "Open Sans","Helvetica Neue",sans-serif;
+letter-spacing: 0;
+font-weight: 300;
+font-style: normal;
+font-size: 50px;
+height: 80px;
+padding: 0;
+width: 100%;
+background: 
+}
+.search-menu{
+color: rgba(0,0,0,.8);
+font-size: 16px;
+letter-spacing: 0;
+position: relative;
+padding-bottom: 20px!important;
+border: 0;
+border-bottom: 1px solid rgba(0,0,0,.15);
+border-radius: 0;
+}
+
+.search-menu>a{
+text-decoration: none;
+color: rgb(135,135,135);
+margin-right: 30px
+}
+
+.tabs-container{
+max-width: 1000px;
+padding-right: 30px!important;
+padding-left: 30px!important;
+
+position: relative!important;
+z-index: 100!important;
+display: block;
+padding-bottom: 20px!important;
+}
+.userRow{
+padding-right: 15px!important;
+padding-left: 15px!important;
+padding-bottom: 20px;
+height: auto;
+
+}
+.mobile .active{
+font-weight: 600;
+color: rgba(0,0,0,.8);
+}
+
+.userCardText{
+width: 60%;
+
+padding: 0px 0px 0px 10px;
+
+}
+
+@media(max-width: 150px){
+.userCardText{
+width: 130px
+}
+}
+
+@media (max-width: 767px){
+.textInput--jumbo {
+font-size: 32px;
+height: 50px;
+}
+}
