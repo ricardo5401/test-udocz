@@ -1,20 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html lang="es-Es" xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="en">
 	<head>
-		<meta charset="encoding">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv=“Content-Type” content=“text/html; charset=utf-8”>
     <%= render 'shared/metas' %>
-    <%= csrf_meta_tags %>
+		<%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-
-		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700,600italic,700italic' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Alegreya+Sans:400,300,400italic,700,700italic,800,800italic">
+		<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+		
+		<link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700,600italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Alegreya+Sans:400,300,400italic,700,700italic,800,800italic">
 		<script src="/js/extensions.js"></script>
 		<script src="/js/social-share-kit.js"></script>
-    	<script src="//connect.facebook.net/en_US/sdk.js" type="text/javascript"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/epub.js/0.2.15/epub.min.js"></script>
+    <script src="https://unpkg.com/chart.js@2.4.0/dist/Chart.bundle.js"></script>
+    <script src="//connect.facebook.net/en_US/sdk.js" type="text/javascript"></script>
 		<script type="application/ld+json">
 			{
 				"@context" : "http://schema.org",
@@ -25,6 +30,7 @@
 			}
 		</script>
 		<title>uDocz</title>
+		<link rel="stylesheet" type="text/css" href="/static/css/main.0f3c1b1d.css">
   </head>
 
   <body>
@@ -32,6 +38,6 @@
       <!-- magic here -->
       <%= yield %>
     </div>
-    <script src="/js/main.f851182c.js"></script>
+    <script src="/static/js/main.a142a9bd.js"></script>
   </body>
 </html>
